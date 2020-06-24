@@ -41,7 +41,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
         var dadoDOM = document.querySelector('.dice');
         dadoDOM.style.display = 'block';
         dadoDOM.style.opacity = 1;
-        dadoDOM.src = 'resources/dice-' + dado + '.png';
+        dadoDOM.src = 'Resources/dice-' + dado + '.png';
         if(dado !== 1){
             roundScore += dado;
             document.querySelector('#current-' + jogadorAtivo).textContent = roundScore;
