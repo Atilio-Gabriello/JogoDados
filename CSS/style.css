@@ -185,3 +185,45 @@ ion-icon {
     width: 160px;
     text-transform: uppercase;
 }
+
+/*--- Regras 2 ---*/
+
+.Callout {
+    position: fixed;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    /*margin-left: 20px;*/
+    max-width: 600px;
+    z-index: 9999;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+  
+.Callout-Header {
+    padding: 25px 15px;
+    background: #555;
+    font-size: 30px;
+    color: white;
+}
+  
+.Callout-text {
+    padding: 15px;
+    background-color: #ccc;
+    color: black
+}
+  
+.closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+  
+.closebtn:hover {
+    color: lightgrey;
+}
